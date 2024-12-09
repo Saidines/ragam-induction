@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="scripts/script.js">
+
+
+
+  </script>
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="/styles/profile.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik">
+</head>
+<body>
+<div class="profile">
+  <div class="info">
+<img src="images/image-jeremy.png">
+  <div class="g">Report for</div>
+ <div class="name">Jeremy <br>Robson</div> 
+</div>
+<div class="options">
+ <div class="d"><button onclick="changer('daily','yesterday')">Daily</button> </div>
+ <div class="w" > <button  onclick="changer('weekly','Last week')" >Weekly</button></div>
+<div class="m"><button onclick="changer('monthly','last month')">monthly</button></div></div>
+</div>
+<div class="wholecards">
+  <div class="top">
+    <div class="workccc ccc">
+      <div class="cd">    </div>
+  <div class="workcc cc">
+    <img src="/images/icon-work.svg">
+ <div class="work c">
+  <div class="A">Play</div> 
+    <div class="current">32hrs</div> <!-- daily -->
+    <div class="Previous">2hr</div><!-- daily --></div></div></div>
+
+  <div class="playcc cc">
+    <img src="/images/icon-play.svg">
+  <div class="play c">
+   <div class="A">Play</div> 
+    <div class="current">32hrs</div> <!-- daily -->
+    <div class="Previous">2hr</div><!-- daily -->
+  </div></div>
+ 
+<div class="studycc cc">
+  <img src="/images/icon-study.svg">
+  <div class="study c"> <div class="A">Play</div> 
+  <div class="current">32hrs</div> <!-- daily -->
+  <div class="Previous">2hr</div></div></div>
+</div>
+<div class="bottom">
+  <div class="exercisecc cc">
+    <img src="/images/icon-exercise.svg">
+ <div class="exercise c"> 
+  
+  <div class="A">Play</div> 
+  <div class="current">32hrs</div> <!-- daily -->
+  <div class="Previous">2hr</div></div>
+</div>
+<div class="socialcc cc">
+  <img src="/images/icon-social.svg">
+  <div class="social c"> <div class="A">Play</div> 
+  <div class="current">32hrs</div> <!-- daily -->
+  <div class="Previous">2hr</div>
+  </div></div>
+ <div class="selfcarecc cc">
+  <img src="/images/icon-self-care.svg">
+ <div class="selfcare c">
+
+  <div class="A">Play</div> 
+  <div class="current">32hrs</div> <!-- daily -->
+  <div class="Previous">2hr</div>
+ </div></div> </div></div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
